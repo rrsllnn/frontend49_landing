@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TT Hoves;
+    color: var(--typo-black, #222);
+}
+
+section{
+    margin: 0 calc(8.8vw + 16px);
+}
+
+.logo{
+    width: calc(8.8vw + 182px);
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+
+.course_info{
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+    .course_data{
+        display: flex;
+        flex-direction: column;
+    }
+.title{
+    /* caption */
+font-family: "TT Hoves";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 29.4px */
+}
+.value{
+font-family: "TT Hoves";
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 29.4px */
+}
+
+.html_css_js h1{
+font-family: Chava;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 88px */
+margin-bottom: 40px;
+}
+.html_css_js p{
+    font-family: "TT Hoves";
+font-size: 27px;
+font-style: normal;
+font-weight: 300;
+line-height: 140%; /* 37.8px */
+max-width: 1030px;
+margin-bottom: 20px;
+}
+
+.btn_wrapper{
+    display: flex;
+    flex-wrap:  wrap;
+    gap: 20px 30px;
+}
+
+.primary{
+    width: 328px;
+    border-radius:  12px;
+    background-color: #6E3ABA;
+    padding: 20px 0;
+    border: 2px solid  #6E3ABA;
+    color: white;
+}
+
+.secondary{
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color:transparent;
+    border: 2px solid #6E3ABA;
+    color:#6E3ABA;
+    cursor: pointer;
+}
+.html_css_js{
+
+}
